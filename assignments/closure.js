@@ -1,7 +1,20 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+function favoriteTeam (name) {
 
+
+  console.log(`my favorate team is the ${name}`);
+
+
+function  mascot() {
+console.log(`there mascot is a: ${name}`);
+
+}
+function mascot();
+}
+
+favoriteTeam("panthers");
 // ==== Challenge 2: Create a counter function ====
 const counter = () => {
   // Return a function that when invoked increments and returns a counter variable.

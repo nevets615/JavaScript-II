@@ -62,6 +62,7 @@ let fullName = [];
 
 
 
+
 // runners.forEach(runner => fullName.push(`${runner.first_name} ${runner.last_name}`));
 
 // console.log(fullName);
