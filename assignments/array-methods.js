@@ -63,9 +63,9 @@ let fullName = [];
 
 
 
-// runners.forEach(runner => fullName.push(`${runner.first_name} ${runner.last_name}`));
+runners.forEach(runner => fullName.push(`${runner.first_name} ${runner.last_name}`));
 
-// console.log(fullName);
+console.log(fullName);
 
 
 // ==== Challenge 2: Use .map() ====
@@ -97,7 +97,7 @@ let ticketPriceTotal = 0;
 
 const donation = runners.reduce(function(donations, currentValue) {
     debugger;
-    return totalPop + currentValue.donations;
+    return ticketPriceTotal + currentValue.donations;
     
   }, 0);
 
